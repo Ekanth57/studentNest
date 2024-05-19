@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "662274789795",
+    "project_id": "studentnest-79455",
+    "storage_bucket": "studentnest-79455.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662274789795:android:524a771213c103229e4a16",
+        "android_client_info": {
+          "package_name": "com.studentNest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662274789795-o8h829t82e75su2lhcsebgs0gd8ka47d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studentNest",
+            "certificate_hash": "5c9a72307e0671134cc6d137a6c009f6ad94c4d9"
+          }
+        },
+        {
+          "client_id": "662274789795-444d19d2qesp22j6q395ea065e85gr43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLSyFgJroynytkhH8h-LADQyU1xBMbJg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662274789795-444d19d2qesp22j6q395ea065e85gr43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

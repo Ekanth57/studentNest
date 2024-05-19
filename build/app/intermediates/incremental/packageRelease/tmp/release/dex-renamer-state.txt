@@ -1,0 +1,4 @@
+#Thu Sep 14 14:09:42 BST 2023
+base.0=/Users/ekanth/dissertation/code/StudentNest/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

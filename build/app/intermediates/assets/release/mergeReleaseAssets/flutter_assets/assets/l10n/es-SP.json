@@ -1,0 +1,9 @@
+{
+  "appTitle": "Demo App",
+  "login": "Login",
+  "changeLanguage": "Cambiar idioma",
+  "addProperty": "Agregar propiedad",
+  "settings":"Ajustes",
+  "feedback": "Comentario",
+  "logout": "Cerrar sesión"
+}

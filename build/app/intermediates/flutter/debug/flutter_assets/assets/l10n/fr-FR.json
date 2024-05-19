@@ -1,0 +1,9 @@
+{
+  "appTitle": "Demo App",
+  "login": "Login",
+  "changeLanguage": "Changer de langue",
+  "addProperty": "Ajouter une propriété",
+  "settings":"Paramètres",
+  "feedback": "Retour",
+  "logout": "Se déconnecter"
+}

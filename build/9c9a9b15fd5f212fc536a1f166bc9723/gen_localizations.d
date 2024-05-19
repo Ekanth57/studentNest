@@ -1,0 +1,1 @@
+ /Users/ekanth/dissertation/code/StudentNest/.dart_tool/flutter_gen/gen_l10n/app_localizations.dart:  /Users/ekanth/dissertation/code/StudentNest/l10n.yaml

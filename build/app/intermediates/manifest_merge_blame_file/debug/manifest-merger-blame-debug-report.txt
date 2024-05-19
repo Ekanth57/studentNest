@@ -1,0 +1,606 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.studentNest"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:7:5-66
+15-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:7:22-64
+16    <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" tools:node="remove"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:6:5-79
+17-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:6:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:8:5-81
+18-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:9:5-79
+19-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:10:5-65
+20-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:10:22-62
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:11:5-77
+21-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:11:22-74
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:12:5-80
+22-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:12:22-77
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:13:5-81
+23-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:13:22-78
+24    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+24-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:14:5-73
+24-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:14:22-70
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:15:5-72
+25-->/Users/ekanth/dissertation/code/StudentNest/android/app/src/main/AndroidManifest.xml:15:22-69
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+26-->[:firebase_analytics] /Users/ekanth/dissertation/code/StudentNest/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+26-->[:firebase_analytics] /Users/ekanth/dissertation/code/StudentNest/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+27-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+27-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+28-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+29-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+30    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+30-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+30-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+31    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+31-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+31-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+32
+33    <uses-feature
+33-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+34        android:glEsVersion="0x00020000"
+34-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+35        android:required="true" />
+35-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+36
+37    <queries>
+37-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+38
+39        <!-- Needs to be explicitly declared on Android R+ -->
+40        <package android:name="com.google.android.apps.maps" />
+40-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+40-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+41    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+42    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+42-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:5-82
+42-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:22-79
+43    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+43-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/9fe8d1b46c71e9b954a639d6f927ec09/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+43-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/9fe8d1b46c71e9b954a639d6f927ec09/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+44    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+44-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+44-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+45
+46    <permission
+46-->[androidx.core:core:1.9.0] /Users/ekanth/.gradle/caches/transforms-3/50ac565c2d78ece85381646878fcb457/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+47        android:name="com.studentNest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+47-->[androidx.core:core:1.9.0] /Users/ekanth/.gradle/caches/transforms-3/50ac565c2d78ece85381646878fcb457/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+48        android:protectionLevel="signature" />
+48-->[androidx.core:core:1.9.0] /Users/ekanth/.gradle/caches/transforms-3/50ac565c2d78ece85381646878fcb457/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+49
+50    <uses-permission android:name="com.studentNest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+50-->[androidx.core:core:1.9.0] /Users/ekanth/.gradle/caches/transforms-3/50ac565c2d78ece85381646878fcb457/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+50-->[androidx.core:core:1.9.0] /Users/ekanth/.gradle/caches/transforms-3/50ac565c2d78ece85381646878fcb457/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+51
+52    <application
+53        android:name="android.app.Application"
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.9.0] /Users/ekanth/.gradle/caches/transforms-3/50ac565c2d78ece85381646878fcb457/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+55        android:debuggable="true"
+56        android:icon="@mipmap/studentnest"
+57        android:label="studentNest" >
+58        <meta-data
+59            android:name="com.google.android.geo.API_KEY"
+60            android:value="AIzaSyBYcd3ZRSNIsraIm95x9zOBKICiIrJapyo" />
+61
+62        <activity
+63            android:name="com.studentNest.MainActivity"
+64            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+65            android:exported="true"
+66            android:hardwareAccelerated="true"
+67            android:launchMode="singleTop"
+68            android:theme="@style/LaunchTheme"
+69            android:windowSoftInputMode="adjustResize" >
+70
+71            <!--
+72                 Specifies an Android theme to apply to this Activity as soon as
+73                 the Android process has started. This theme is visible to the user
+74                 while the Flutter UI initializes. After that, this theme continues
+75                 to determine the Window background behind the Flutter UI.
+76            -->
+77            <meta-data
+78                android:name="io.flutter.embedding.android.NormalTheme"
+79                android:resource="@style/NormalTheme" />
+80            <meta-data
+81                android:name="com.google.firebase.messaging.default_notification_channel_id"
+82                android:value="studentNotification" />
+83
+84            <intent-filter>
+85                <action android:name="android.intent.action.MAIN" />
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+88            </intent-filter>
+89            <intent-filter>
+90                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+92-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+93            </intent-filter>
+94            <intent-filter>
+94-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+95                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+95-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+95-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+96            </intent-filter>
+97        </activity>
+98        <!--
+99             Don't delete the meta-data below.
+100             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+101        -->
+102        <meta-data
+103            android:name="flutterEmbedding"
+104            android:value="2" />
+105
+106        <service
+106-->[:cloud_firestore] /Users/ekanth/dissertation/code/StudentNest/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+107            android:name="com.google.firebase.components.ComponentDiscoveryService"
+107-->[:cloud_firestore] /Users/ekanth/dissertation/code/StudentNest/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.3.0] /Users/ekanth/.gradle/caches/transforms-3/17f61bb9398e1f5c13b56fc5aeeddc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-firestore:24.4.3] /Users/ekanth/.gradle/caches/transforms-3/fabe7d7698064912011c3f275f57ac07/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:18:13-37
+110            <meta-data
+110-->[:cloud_firestore] /Users/ekanth/dissertation/code/StudentNest/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+111-->[:cloud_firestore] /Users/ekanth/dissertation/code/StudentNest/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:cloud_firestore] /Users/ekanth/dissertation/code/StudentNest/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+113            <meta-data
+113-->[:firebase_analytics] /Users/ekanth/dissertation/code/StudentNest/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+114-->[:firebase_analytics] /Users/ekanth/dissertation/code/StudentNest/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-128
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_analytics] /Users/ekanth/dissertation/code/StudentNest/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+116            <meta-data
+116-->[:firebase_auth] /Users/ekanth/dissertation/code/StudentNest/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+117                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+117-->[:firebase_auth] /Users/ekanth/dissertation/code/StudentNest/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[:firebase_auth] /Users/ekanth/dissertation/code/StudentNest/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+119            <meta-data
+119-->[:firebase_storage] /Users/ekanth/dissertation/code/StudentNest/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+120                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+120-->[:firebase_storage] /Users/ekanth/dissertation/code/StudentNest/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[:firebase_storage] /Users/ekanth/dissertation/code/StudentNest/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+122            <meta-data
+122-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+123                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+123-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+125            <meta-data
+125-->[:firebase_core] /Users/ekanth/dissertation/code/StudentNest/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+126                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+126-->[:firebase_core] /Users/ekanth/dissertation/code/StudentNest/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[:firebase_core] /Users/ekanth/dissertation/code/StudentNest/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-firestore:24.4.3] /Users/ekanth/.gradle/caches/transforms-3/fabe7d7698064912011c3f275f57ac07/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:19:13-21:85
+129                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+129-->[com.google.firebase:firebase-firestore:24.4.3] /Users/ekanth/.gradle/caches/transforms-3/fabe7d7698064912011c3f275f57ac07/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:20:17-111
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-firestore:24.4.3] /Users/ekanth/.gradle/caches/transforms-3/fabe7d7698064912011c3f275f57ac07/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:21:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+132                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+132-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-storage:20.1.0] /Users/ekanth/.gradle/caches/transforms-3/82b3d7a5d1802e9fa70b6c75bdf3591c/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+135-->[com.google.firebase:firebase-storage:20.1.0] /Users/ekanth/.gradle/caches/transforms-3/82b3d7a5d1802e9fa70b6c75bdf3591c/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-storage:20.1.0] /Users/ekanth/.gradle/caches/transforms-3/82b3d7a5d1802e9fa70b6c75bdf3591c/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+138                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+138-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-iid:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/1db1b2873326ed90786bb9c16ff9ea36/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+141                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+141-->[com.google.firebase:firebase-iid:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/1db1b2873326ed90786bb9c16ff9ea36/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-iid:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/1db1b2873326ed90786bb9c16ff9ea36/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+143            <meta-data
+143-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/9fe8d1b46c71e9b954a639d6f927ec09/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+144                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+144-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/9fe8d1b46c71e9b954a639d6f927ec09/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/9fe8d1b46c71e9b954a639d6f927ec09/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-installations:17.1.2] /Users/ekanth/.gradle/caches/transforms-3/f7ca06f63c0030499ca3661ec9c77550/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:17:13-19:85
+147                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+147-->[com.google.firebase:firebase-installations:17.1.2] /Users/ekanth/.gradle/caches/transforms-3/f7ca06f63c0030499ca3661ec9c77550/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:18:17-127
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-installations:17.1.2] /Users/ekanth/.gradle/caches/transforms-3/f7ca06f63c0030499ca3661ec9c77550/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:19:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/ekanth/.gradle/caches/transforms-3/3cf916311ea46cca191077538f98d969/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+150                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+150-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/ekanth/.gradle/caches/transforms-3/3cf916311ea46cca191077538f98d969/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/ekanth/.gradle/caches/transforms-3/3cf916311ea46cca191077538f98d969/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+152        </service>
+153        <service
+153-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+154            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+154-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+155            android:exported="false"
+155-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+157        <service
+157-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+158            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+158-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+159            android:exported="false" >
+159-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+160            <intent-filter>
+160-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+161                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+161-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+161-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+162            </intent-filter>
+163        </service>
+164
+165        <receiver
+165-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+166            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+166-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+167            android:exported="true"
+167-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+168            android:permission="com.google.android.c2dm.permission.SEND" >
+168-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+169            <intent-filter>
+169-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+170                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+170-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+170-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+171            </intent-filter>
+172        </receiver>
+173
+174        <provider
+174-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+175            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+175-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+176            android:authorities="com.studentNest.flutterfirebasemessaginginitprovider"
+176-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+177            android:exported="false"
+177-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+178            android:initOrder="99" />
+178-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+179
+180        <service
+180-->[:geolocator_android] /Users/ekanth/dissertation/code/StudentNest/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
+181            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+181-->[:geolocator_android] /Users/ekanth/dissertation/code/StudentNest/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
+182            android:enabled="true"
+182-->[:geolocator_android] /Users/ekanth/dissertation/code/StudentNest/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
+183            android:exported="false"
+183-->[:geolocator_android] /Users/ekanth/dissertation/code/StudentNest/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+184            android:foregroundServiceType="location" />
+184-->[:geolocator_android] /Users/ekanth/dissertation/code/StudentNest/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+185
+186        <provider
+186-->[:image_picker_android] /Users/ekanth/dissertation/code/StudentNest/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+187            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+187-->[:image_picker_android] /Users/ekanth/dissertation/code/StudentNest/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+188            android:authorities="com.studentNest.flutter.image_provider"
+188-->[:image_picker_android] /Users/ekanth/dissertation/code/StudentNest/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+189            android:exported="false"
+189-->[:image_picker_android] /Users/ekanth/dissertation/code/StudentNest/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+190            android:grantUriPermissions="true" >
+190-->[:image_picker_android] /Users/ekanth/dissertation/code/StudentNest/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+191            <meta-data
+191-->[:image_picker_android] /Users/ekanth/dissertation/code/StudentNest/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+192                android:name="android.support.FILE_PROVIDER_PATHS"
+192-->[:image_picker_android] /Users/ekanth/dissertation/code/StudentNest/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+193                android:resource="@xml/flutter_image_picker_file_paths" />
+193-->[:image_picker_android] /Users/ekanth/dissertation/code/StudentNest/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+194        </provider>
+195
+196        <receiver
+196-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+197            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+197-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
+198            android:exported="false" />
+198-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+199        <receiver
+199-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+200            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+200-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+201            android:exported="false" />
+201-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+202        <receiver
+202-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
+203            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+203-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
+204            android:exported="false" >
+204-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+205            <intent-filter>
+205-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
+206                <action android:name="android.intent.action.BOOT_COMPLETED" />
+206-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
+206-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
+207                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+207-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
+207-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
+208                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+208-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
+208-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
+209                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+209-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
+209-->[:flutter_local_notifications] /Users/ekanth/dissertation/code/StudentNest/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
+210            </intent-filter>
+211        </receiver> <!-- Needs to be explicitly declared on P+ -->
+212        <uses-library
+212-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+213            android:name="org.apache.http.legacy"
+213-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+214            android:required="false" />
+214-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/d8fc9cb6ca57b60ec842c4da120aa98b/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+215
+216        <activity
+216-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+217            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+217-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+218            android:excludeFromRecents="true"
+218-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+219            android:exported="false"
+219-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+221        <!--
+222            Service handling Google Sign-In user revocation. For apps that do not integrate with
+223            Google Sign-In, this service will never be started.
+224        -->
+225        <service
+225-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+226            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+226-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+227            android:exported="true"
+227-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+228            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+228-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+229            android:visibleToInstantApps="true" />
+229-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ekanth/.gradle/caches/transforms-3/3911405eeabcd43864e88eb9ac1932cc/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+230
+231        <activity
+231-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+232            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+232-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+233            android:excludeFromRecents="true"
+233-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+234            android:exported="true"
+234-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+235            android:launchMode="singleTask"
+235-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+236-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+237            <intent-filter>
+237-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+238                <action android:name="android.intent.action.VIEW" />
+238-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+238-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+240-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+241                <category android:name="android.intent.category.BROWSABLE" />
+241-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+241-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+242
+243                <data
+243-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+244                    android:host="firebase.auth"
+244-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+245                    android:path="/"
+245-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+246                    android:scheme="genericidp" />
+246-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+247            </intent-filter>
+248        </activity>
+249        <activity
+249-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+250            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+250-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+251            android:excludeFromRecents="true"
+251-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+252            android:exported="true"
+252-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+253            android:launchMode="singleTask"
+253-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+254-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+255            <intent-filter>
+255-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+256                <action android:name="android.intent.action.VIEW" />
+256-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+256-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+257
+258                <category android:name="android.intent.category.DEFAULT" />
+258-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+258-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+259                <category android:name="android.intent.category.BROWSABLE" />
+259-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+259-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+260
+261                <data
+261-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+262                    android:host="firebase.auth"
+262-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+263                    android:path="/"
+263-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+264                    android:scheme="recaptcha" />
+264-->[com.google.firebase:firebase-auth:21.1.0] /Users/ekanth/.gradle/caches/transforms-3/4a9da42da7989287787340e3f7e46327/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+265            </intent-filter>
+266        </activity>
+267
+268        <receiver
+268-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+269            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+269-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+270            android:exported="true"
+270-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+271            android:permission="com.google.android.c2dm.permission.SEND" >
+271-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+272            <intent-filter>
+272-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+273                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+273-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+273-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+274            </intent-filter>
+275        </receiver>
+276        <!--
+277             FirebaseMessagingService performs security checks at runtime,
+278             but set to not exported to explicitly avoid allowing another app to call it.
+279        -->
+280        <service
+280-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+281            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+281-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+282            android:directBootAware="true"
+282-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+283            android:exported="false" >
+283-->[com.google.firebase:firebase-messaging:23.1.1] /Users/ekanth/.gradle/caches/transforms-3/66de4305226ff0cb8bffa4b4ba4a8b75/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+284            <intent-filter android:priority="-500" >
+284-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+285                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+285-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+285-->[:firebase_messaging] /Users/ekanth/dissertation/code/StudentNest/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+286            </intent-filter>
+287        </service>
+288
+289        <activity
+289-->[com.google.android.gms:play-services-base:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/0861465e27f550a84b471cca91b81f1b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+290            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+290-->[com.google.android.gms:play-services-base:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/0861465e27f550a84b471cca91b81f1b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+291            android:exported="false"
+291-->[com.google.android.gms:play-services-base:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/0861465e27f550a84b471cca91b81f1b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+292            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+292-->[com.google.android.gms:play-services-base:18.1.0] /Users/ekanth/.gradle/caches/transforms-3/0861465e27f550a84b471cca91b81f1b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+293
+294        <provider
+294-->[com.google.firebase:firebase-common:20.3.0] /Users/ekanth/.gradle/caches/transforms-3/17f61bb9398e1f5c13b56fc5aeeddc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+295            android:name="com.google.firebase.provider.FirebaseInitProvider"
+295-->[com.google.firebase:firebase-common:20.3.0] /Users/ekanth/.gradle/caches/transforms-3/17f61bb9398e1f5c13b56fc5aeeddc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+296            android:authorities="com.studentNest.firebaseinitprovider"
+296-->[com.google.firebase:firebase-common:20.3.0] /Users/ekanth/.gradle/caches/transforms-3/17f61bb9398e1f5c13b56fc5aeeddc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+297            android:directBootAware="true"
+297-->[com.google.firebase:firebase-common:20.3.0] /Users/ekanth/.gradle/caches/transforms-3/17f61bb9398e1f5c13b56fc5aeeddc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+298            android:exported="false"
+298-->[com.google.firebase:firebase-common:20.3.0] /Users/ekanth/.gradle/caches/transforms-3/17f61bb9398e1f5c13b56fc5aeeddc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+299            android:initOrder="100" />
+299-->[com.google.firebase:firebase-common:20.3.0] /Users/ekanth/.gradle/caches/transforms-3/17f61bb9398e1f5c13b56fc5aeeddc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+300
+301        <receiver
+301-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+302            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+302-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+303            android:enabled="true"
+303-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+304            android:exported="false" >
+304-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+305        </receiver>
+306
+307        <service
+307-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+308            android:name="com.google.android.gms.measurement.AppMeasurementService"
+308-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+309            android:enabled="true"
+309-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+310            android:exported="false" />
+310-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+311        <service
+311-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+312            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+312-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+313            android:enabled="true"
+313-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+314            android:exported="false"
+314-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+315            android:permission="android.permission.BIND_JOB_SERVICE" />
+315-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ekanth/.gradle/caches/transforms-3/847b32b408afbc752888409c4ca8a94a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+316
+317        <meta-data
+317-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ekanth/.gradle/caches/transforms-3/f39faed18ed24c5eda489febb99f4594/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+318            android:name="com.google.android.gms.version"
+318-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ekanth/.gradle/caches/transforms-3/f39faed18ed24c5eda489febb99f4594/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+319            android:value="@integer/google_play_services_version" />
+319-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ekanth/.gradle/caches/transforms-3/f39faed18ed24c5eda489febb99f4594/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+320
+321        <uses-library
+321-->[androidx.window:window:1.0.0-beta04] /Users/ekanth/.gradle/caches/transforms-3/36a45b2abb854eca36c578fbec6ed4df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+322            android:name="androidx.window.extensions"
+322-->[androidx.window:window:1.0.0-beta04] /Users/ekanth/.gradle/caches/transforms-3/36a45b2abb854eca36c578fbec6ed4df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+323            android:required="false" />
+323-->[androidx.window:window:1.0.0-beta04] /Users/ekanth/.gradle/caches/transforms-3/36a45b2abb854eca36c578fbec6ed4df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+324        <uses-library
+324-->[androidx.window:window:1.0.0-beta04] /Users/ekanth/.gradle/caches/transforms-3/36a45b2abb854eca36c578fbec6ed4df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+325            android:name="androidx.window.sidecar"
+325-->[androidx.window:window:1.0.0-beta04] /Users/ekanth/.gradle/caches/transforms-3/36a45b2abb854eca36c578fbec6ed4df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+326            android:required="false" />
+326-->[androidx.window:window:1.0.0-beta04] /Users/ekanth/.gradle/caches/transforms-3/36a45b2abb854eca36c578fbec6ed4df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+327
+328        <service
+328-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/b575f61dd6993583ac7c69c3796215af/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+329            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+329-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/b575f61dd6993583ac7c69c3796215af/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+330            android:exported="false" >
+330-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/b575f61dd6993583ac7c69c3796215af/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+331            <meta-data
+331-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/b575f61dd6993583ac7c69c3796215af/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+332                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+332-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/b575f61dd6993583ac7c69c3796215af/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+333                android:value="cct" />
+333-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/b575f61dd6993583ac7c69c3796215af/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+334        </service>
+335        <service
+335-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/2f15c8034f6aea8b10122d8249b4c9b9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+336            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+336-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/2f15c8034f6aea8b10122d8249b4c9b9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+337            android:exported="false"
+337-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/2f15c8034f6aea8b10122d8249b4c9b9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+338            android:permission="android.permission.BIND_JOB_SERVICE" >
+338-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/2f15c8034f6aea8b10122d8249b4c9b9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+339        </service>
+340
+341        <receiver
+341-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/2f15c8034f6aea8b10122d8249b4c9b9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+342            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+342-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/2f15c8034f6aea8b10122d8249b4c9b9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+343            android:exported="false" />
+343-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ekanth/.gradle/caches/transforms-3/2f15c8034f6aea8b10122d8249b4c9b9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+344    </application>
+345
+346</manifest>
